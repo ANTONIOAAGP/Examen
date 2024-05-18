@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger's Paradise - Productos</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo"><img src="img/Burguer Paradise.png" alt="Logo"></a>
+                <ul class="menu">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Menú</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>  
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nuestros Productos</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="img/hamburguesa 1.jpeg" alt="Producto 1">
+                <div class="product-info">
+                    <h2>Big Mac</h2>
+                    <p>Quizás sean las dos hamburguesas de pura carne con salsa y queso derretido, el toque de cebolla y el crocante del pepino. Bueno, en realidad quizás sea solo que es el más alto....</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 2.jpeg" alt="Producto 2">
+                <div class="product-info">
+                    <h2>Cuarto de Libra Con Queso</h2>
+                    <p>Doble queso derretido... la compañía perfecta para que la hamburguesa no se sienta sola. Simple, pero funciona.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 3.jpeg" alt="Producto 3">
+                <div class="product-info">
+                    <h2>Doble Cuarto de Libra con Queso</h2>
+                    <p>El doble de sabor. A ver... empecemos con un cuarto de libra de pura carne con los quesos que lo acompañan. Hasta ahí, muy bien. Sólo que encima de todo esto, agregamos otro cuarto de libra, igual al anterior. ¡Mucho mejor!</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 4.jpeg" alt="Producto 4">
+                <div class="product-info">
+                    <h2>McNífica</h2>
+                    <p>Es real y es magnífica. Comencemos con una gran hamburguesa de pura carne y queso. Luego agreguemos tomate fresco, lechuga y cebolla con ketchup, mostaza y mayonesa. Es más que buena, es magnífica.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 5.jpeg" alt="Producto 5">
+                <div class="product-info">
+                    <h2>Doble McNífica</h2>
+                    <p>Es real y es magnífica. Comencemos con una gran hamburguesa de pura carne y queso. Luego agreguemos tomate fresco, lechuga y cebolla con ketchup, mostaza y mayonesa. Es más que buena, es magnífica.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 6.jpeg" alt="Producto 6">
+                <div class="product-info">
+                    <h2>Hamburguesa Con Queso</h2>
+                    <p>Un deliciosa clásico con una rodaja de queso derretido.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 7.jpeg" alt="Producto 7">
+                <div class="product-info">
+                    <h2>Hamburguesa</h2>
+                    <p>La hamburguesa original comienza con carne 100% vacuna sin aditivos ni conservantes, condimentada con una pisca de sal y pimienta, acompañada por pepinillos, cebollitas picadas, ketchup y mostaza.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 8.jpeg" alt="Producto 8">
+                <div class="product-info">
+                    <h2>McBacon</h2>
+                    <p>¡No te la pierdas!</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 9.jpeg" alt="Producto 9">
+                <div class="product-info">
+                    <h2>McFiesta Jr. (Cajita Feliz)</h2>
+                    <p>La McFiesta Jr. comienza con carne 100% vacuna sin aditivos ni conservantes, condimentada con una pisca de sal y pimienta, con una rodaja de tomate, lechuga y mayonesa.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/hamburguesa 10.jpeg" alt="Producto 10">
+                <div class="product-info">
+                    <h2>Triple con Queso</h2>
+                    <p>Imperdible a cualquier hora.</p>
+                    <button class="buy-button" onclick="showModal()">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Acerca de nuestro servicio:</p>
+            <p> Somos Burger's Paradise, ofreciendo las mejores hamburguesas de la ciudad.</p>
+            <div class="social-media">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal()">&times;</span>
+            <p>Compra exitosa</p>
+        </div>
+    </div>
+
+    <script>
+        function showModal() {
+            const modal = document.getElementById('modal');
+            modal.style.display = 'block';
+
+          
+            modal.classList.add('bounce');
+            setTimeout(() => {
+                modal.classList.remove('bounce');
+            }, 1000);
+        }
+
+        function closeModal() {
+            document.getElementById('modal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('modal')) {
+                closeModal();
+            }
+        }
+    </script>
+</body>
+</html>
